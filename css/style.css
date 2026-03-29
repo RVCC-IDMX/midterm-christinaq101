@@ -1,19 +1,65 @@
 body{
     text-align:center;
+    padding:50px;
     font-family:Cormorant Garamond, serif;
     background-color:#F4EEED;
     color:#000000;
     font-size:50px
 
 }
-
-h1, h2, h3, h4, h5, h6{
+h1,h2{
     font-family:Petit Formal Script, cursive;
     font-size:150px;
+}
+h3{
+    font-family:Petit Formal Script, cursive;
+    background-color:#9bbaab;
+    font-size:150px;
+    border:5px solid #000000;
+    border-radius:20px;
+    text-align:center;
+    display:inline-block;
+    padding:20px;
+}
 
+
+h4,h5,h6{
+    font-family:Cormorant Garamond, serif;
+    font-size:60px;
 }
 
 header{
     text-align:center;
+    padding:20px;
+}
+
+#hero img{
+    width:80%;
+    height:30%;
+}
+
+#gallery{
+    border:#000000 solid 5px;
+    background-color:#d9c8b4
+
+}
+
+#gallery img{
+    width:30%;
+    height:30%;
+    padding:20px;
+}
+
+/*Reviews Section*/
+
+#reviews h2{
+    border:3px solid #000000;
+    border-radius:20px;
+}
+
+#reviews{
+    text-align: left;
+    border: #000000 solid 5px;
+    background-color:#9bbaab;
     padding:20px;
 }
